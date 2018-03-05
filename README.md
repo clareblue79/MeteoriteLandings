@@ -3,6 +3,7 @@
 
 **By Chetna Mahajan and Clare Lee**
 
+Check out the Data Analysis Demo: https://youtu.be/dknxAhswDz4
 Check out the Data Visualization Demo: https://youtu.be/IgL1I5NOKfI
 
 ### Introduction
