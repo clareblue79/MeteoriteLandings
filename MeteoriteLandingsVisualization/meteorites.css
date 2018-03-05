@@ -1,0 +1,67 @@
+/*
+    Visualizing Map Reduced Data of Meteorites Landing using D3.js
+    Filename: meteorites.html
+    Modified by: Chetna Mahajan and Clare Frances Lee
+    Last Modified Date: 05/14/2017
+
+*/
+
+body{
+    width: 90%;
+    margin: auto; 
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+h1{
+    padding: 1em;
+    color: white;
+}
+
+svg{
+    margin: auto;
+}
+
+#timeline{
+    width:80%;
+    height: 100%;
+    margin: auto;
+}
+#timelineBody{
+    background-color: white;
+}
+
+#tHead{
+    color: black;
+
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+th, td{
+    height: 50px;
+    margin: auto;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: black;
+}

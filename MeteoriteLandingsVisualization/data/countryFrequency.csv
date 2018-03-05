@@ -1,0 +1,118 @@
+Country,ISO,Frequency
+Afghanistan,AF,1
+Algeria,DZ,525
+Angola,AO,3
+Antarctica,AQ,11756
+Argentina,AR,48
+Armenia,AM,1
+Australia,AU,360
+Austria,AT,5
+Azerbaijan,AZ,1
+Bangladesh,BD,8
+Belarus,BY,4
+Belgium,BE,4
+Bolivia,BO,2
+Botswana,BW,2
+Brazil,BR,48
+Bulgaria,BG,6
+Burkina Faso,BF,9
+Cambodia,KH,2
+Cameroon,CM,3
+Canada,CA,42
+Central African Republic,CF,1
+Chad,TD,2
+Chile,CL,244
+China,CN,86
+Colombia,CO,2
+Croatia,HR,3
+Czech Republic,CZ,21
+Democratic Republic of the Congo,CD,4
+Denmark,DK,6
+Ecuador,EC,1
+Egypt,EG,22
+Estonia,EE,4
+Ethiopia,ET,6
+Finland,FI,8
+France,FR,63
+Germany,DE,37
+Ghana,GH,1
+Greece,GR,1
+Guatemala,GT,1
+Hungary,HU,8
+India,IN,126
+Indonesia,ID,18
+Iran,IR,2
+Iraq,IQ,3
+Ireland,IE,5
+Italy,IT,32
+Jamaica,JM,1
+Japan,JP,53
+Jordan,JO,1
+Kazakhstan,KZ,9
+Kenya,KE,93
+Kyrgyzstan,KG,1
+Laos,LA,1
+Latvia,LV,3
+Lesotho,LS,3
+Libya,LY,581
+Lithuania,LT,4
+Madagascar,MG,1
+Malawi,MW,6
+Mali,ML,5
+Mauritania,MR,12
+Mexico,MX,62
+Mongolia,MN,6
+Morocco,MA,98
+Myanmar,MM,3
+Namibia,NA,9
+Netherlands,NL,4
+New Caledonia,NC,1
+New Zealand,NZ,3
+Niger,NE,28
+Nigeria,NG,14
+North Korea,KP,1
+Norway,NO,11
+Oman,OM,1412
+Pakistan,PK,14
+Papua New Guinea,PG,2
+Paraguay,PY,1
+Peru,PE,2
+Philippines,PH,4
+Poland,PL,15
+Portugal,PT,6
+Qatar,QA,1
+Réunion,RE,1
+Romania,RO,8
+Russia,RU,96
+Rwanda,RW,1
+Saudi Arabia,SA,22
+Serbia,RS,5
+Slovakia,SK,6
+Slovenia,SI,2
+Somalia,SO,1
+South Africa,ZA,25
+South Korea,KR,1
+South Sudan,SS,3
+Spain,ES,30
+Sri Lanka,LK,2
+Sudan,SD,7
+Swaziland,SZ,1
+Sweden,SE,42
+Switzerland,CH,6
+Syria,SY,1
+Tanzania,TZ,9
+Thailand,TH,3
+Tunisia,TN,23
+Turkey,TR,11
+Turkmenistan,TM,5
+Uganda,UG,6
+Ukraine,UA,32
+United Arab Emirates,AE,16
+United Kingdom,GB,20
+United States,US,978
+Uzbekistan,UZ,2
+Venezuela,VE,2
+Vietnam,VN,3
+Yemen,YE,2
+Zambia,ZM,1
+Zimbabwe,ZW,2
