@@ -1,0 +1,41 @@
+mapper
+-- process input (one line)
+-- ask reduceManager for reducers (or should it still ask master??)
+-- send reducer the frequency of word
+-- terminate and tell mapManager that it terminated
+
+reducer
+-- gets input from mapper and adds to its own frequency
+-- sends its data to master and termination status to reduceManager?? (termination of reducer isn't that important)
+
+master
+-- reads input file and calls mapManager each line to create a map task --> done
+-- knows where all the mapManagers and reduceManagers are
+-- when a mapManager reports termination, master checks if all mapManagers have termnated -- and if so, it tells the reduceManagers to start termination (distributes work load of master telling reducers to terminate and allows master to receive and process reducer data faster)
+-- when it gets frequencies from reducers, it creates the word frequency hashtable and writes it to file --> done
+
+mapManager
+-- creates map tasks when asked
+-- keeps list of mappers alive
+-- gets termination status from mapper
+-- when all mappers have terminated, mapManager tells master that all of its mappers are done
+
+reduceManager
+-- creates reduce tasks when asked
+-- keeps list of reducers
+-- when master tells it that all mappers have terminated, reduceManager communicates this to all of its reducers
+
+
+
+questions:
+- why is the one machine does one task better (don't mapper machines have to do more work than reducer machines)?
+- how does a mapper know which reduceManager to talk to -- because every reduceManager might (and should) have a different reducer list. how to avoid duplicates??????
+- how do we pair the diff managers? (do we just do it on local machines -- this doesn't make sense)
+- We can have just one mapManager and one reduceManager but we want multiple because we can delegate tasks and distribute the load
+- mapper will talk to mapManager and Master (directly or on behalf of the manager) - explain the pros and cons
+- Master will have complete information everything so the mapper will have to talk to master or mapManager to get which reducer is in charge of which key (pros and cons)
+- After it knows will it directly talk to the reduce tasks or reduce managers?
+- Master pushes the information to mapManager: we have to make sure the table is always updated, but minimal communication 
+- these information can be unneeded but it could be better than having 10 mappers talk to the master all at the same time for the same info
+- Write down all the different implementation ideas: have all the reduceManagers have all the keys and have duplicates since we can combine it anyway but that defeats the purpose of mapReduce 
+- THERE IS NO PERFECT SOLUTION 
